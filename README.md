@@ -7,7 +7,7 @@ For chore rotation at hackerspaces
 **Prerequisites:**
 
 * Chores that need to be done each week
-* >1 Human beings on a mailing list
+* At least 2 human beings on a mailing list
 * [Mailgun](https://www.mailgun.com/) account
 
 **Configuration:**
