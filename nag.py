@@ -51,7 +51,7 @@ def generate_chore_message(config):
   currentActuator = config["actuators"][(indexOfLast + 1) % len(config["actuators"])]
   nextActuator = config["actuators"][(indexOfLast + 2) % len(config["actuators"])]
 
-  messageForCurrentActuator = "@{}: you are up for this week (start of day {} to end of day {})\n".format(currentActuator, str(datetime.date.today()), str(datetime.date.today() + datetime.timedelta(days=6)))
+  messageForCurrentActuator = "\n@{}: you are up for this week (start of day {} to end of day {})\n".format(currentActuator, str(datetime.date.today()), str(datetime.date.today() + datetime.timedelta(days=6)))
   messageForNextActuator = "@{}: you are up after that\n".format(nextActuator)
 
   # FIXME: Function doing more than what is advertised on the tin
