@@ -1,0 +1,5 @@
+# Where we store secrets and stuff
+config.json
+
+# Last person to do the chores
+last_actuator.json
